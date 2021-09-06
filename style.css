@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap);
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 1440px;
+}
+/********************* HEADER *******************************************************/
+header {
+  color: hsl(0, 0%, 100%);
+  height: 100vh;
+  background: url(/images/photos/image-header.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-top div {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-top div a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+header a,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+/***************************** MAIN (GRID) *******************************************/
+#flex-client {
+  display: flex;
+  justify-content: space-around;
+}
+.client p {
+  width: 360;
+}
+/***************************** GALERIE PHOTO ****************************************/
+#galerie-photo {
+  width: 1440px;
+  display: flex;
+}
+.galerie {
+  width: 360px;
+}
+/*************************** FOOTER *************************************************/
+footer {
+  height: 35vh;
+  background: url(/images/photos/image-graphic-design.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.footer-flex {
+  display: flex;
+  justify-content: center;
+}
+.footer-flex a {
+  padding: 15px;
+}
+.footer-liens a {
+  padding: 35px;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(168, 34%, 41%);
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
