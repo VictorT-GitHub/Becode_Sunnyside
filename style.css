@@ -100,7 +100,7 @@ h3 {
   background-image: url("images/photos/image-transform.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .grid3 {
   grid-column: 1;
@@ -108,7 +108,7 @@ h3 {
   background-image: url("images/photos/image-stand-out.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .grid4 {
   grid-column: 2;
@@ -120,7 +120,7 @@ h3 {
   background-image: url("images/photos/image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .grid6 {
   grid-column: 2;
@@ -128,7 +128,7 @@ h3 {
   background-image: url("images/photos/image-photography.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .grid1,
 .grid4 {
