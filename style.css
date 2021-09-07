@@ -87,7 +87,6 @@ h3 {
   height: 75vh;
 }
 .grid-content {
-  height: 240px;
   width: 480px;
 }
 .grid1 {
@@ -100,7 +99,6 @@ h3 {
   background-image: url("images/photos/image-transform.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 .grid3 {
   grid-column: 1;
@@ -108,7 +106,6 @@ h3 {
   background-image: url("images/photos/image-stand-out.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 .grid4 {
   grid-column: 2;
@@ -120,7 +117,6 @@ h3 {
   background-image: url("images/photos/image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 .grid6 {
   grid-column: 2;
@@ -128,7 +124,6 @@ h3 {
   background-image: url("images/photos/image-photography.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 .grid1,
 .grid4 {
@@ -142,6 +137,12 @@ h3 {
   justify-content: center;
   align-items: flex-end;
   text-align: center;
+}
+.class-casse-couilles1 {
+  padding-bottom: 30px;
+}
+.class-casse-couilles2 {
+  padding-bottom: 45px;
 }
 /***************************** CLIENTS  *******************************************/
 h4 {
