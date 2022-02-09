@@ -4,4 +4,4 @@ My very first integration, done with a [Frontend Mentor](https://www.frontendmen
 
 **HTML5** - **CSS3**
 
-[Look at the result on the GitHub page](https://victort-github.github.io/Sunnyside/)
+[Look at the result on the GitHub page](https://victort-github.github.io/Becode_Sunnyside/)
